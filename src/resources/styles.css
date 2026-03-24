@@ -1,0 +1,93 @@
+/* ═══════════════════════════════════════════════
+   DFA Visualizer — Global Stylesheet
+   Theme: Catppuccin Mocha (dark)
+   ═══════════════════════════════════════════════ */
+
+/* Root */
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    -fx-background-color: #1e1e2e;
+}
+
+/* ScrollPane */
+.scroll-pane {
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+/* ScrollBar */
+.scroll-bar {
+    -fx-background-color: #313244;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #585b70;
+    -fx-background-radius: 4;
+}
+
+.scroll-bar .track {
+    -fx-background-color: #1e1e2e;
+}
+
+/* TextField */
+.text-field {
+    -fx-background-color: #313244;
+    -fx-text-fill: #cdd6f4;
+    -fx-prompt-text-fill: #585b70;
+    -fx-border-color: #45475a;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+.text-field:focused {
+    -fx-border-color: #89b4fa;
+}
+
+/* Button */
+.button {
+    -fx-cursor: hand;
+}
+
+.button:disabled {
+    -fx-opacity: 0.4;
+}
+
+/* Label */
+.label {
+    -fx-text-fill: #cdd6f4;
+}
+
+/* Slider */
+.slider .track {
+    -fx-background-color: #45475a;
+}
+
+.slider .thumb {
+    -fx-background-color: #89b4fa;
+}
+
+/* TextArea */
+.text-area {
+    -fx-background-color: #2a2a3e;
+    -fx-text-fill: #cdd6f4;
+    -fx-border-color: #313244;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+.text-area .content {
+    -fx-background-color: #2a2a3e;
+}
+
+/* Tooltip */
+.tooltip {
+    -fx-background-color: #313244;
+    -fx-text-fill: #cdd6f4;
+    -fx-border-color: #45475a;
+    -fx-border-radius: 4;
+    -fx-font-size: 12px;
+}
