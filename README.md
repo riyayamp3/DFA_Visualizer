@@ -5,7 +5,7 @@ A visual DFA simulator for Automata Theory. Input a language condition → get a
 
 ## 📌 What is this?
 
-The **DFA Visualizer** is a desktop application built with **pure Java and JavaFX** that automatically constructs and animates a Deterministic Finite Automaton (DFA) based on a language condition entered by the user.
+The **DFA Visualizer** is a desktop application built with **pure Java and JavaFX** that automatically constructs and animates a Deterministic Finite Automaton (DFA) based on a language condition entered by the user. Simulation starts. 
 
 Instead of drawing DFAs by hand, you can:
 - Type a condition like `ends with abb`
